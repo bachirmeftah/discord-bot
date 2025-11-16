@@ -523,4 +523,4 @@ function checkWinConditions(game, channel) {
     return gameOver;
 }
 
-client.login("MTQzOTU3NTI1ODc2MzEwMDM1NA.GkJMIb.jFOWBM3ElXUL7OC2AxBRACshEo61mezVnX5DIo"); // استبدل التوكن
+client.login(process.env.TOKEN);
